@@ -1,4 +1,4 @@
-/* See LICENSE file for copyright and license details. */
+﻿/* See LICENSE file for copyright and license details. */
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "�" , "", "", "", "", "�", "�", "�", "�", "�" };
+static const char *tags[] = { "" , "", "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):

@@ -115,9 +115,9 @@ main(void)
 
 	for (;;sleep(60)) {
 		tmutc = mktimes("%H:%M", tzutc);
-		tmbln = mktimes("%a %d %b %Y", tzberlin);
+		tmbln = mktimes("%a %d %b", tzberlin);
 
-		status = smprintf("  420    %s  %s",
+		status = smprintf("  Copy me if you can   -   %s -   %s ",
 				tmutc,
 				tmbln);
 		setstatus(status);

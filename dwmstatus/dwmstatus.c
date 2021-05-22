@@ -117,7 +117,7 @@ main(void)
 		tmutc = mktimes("%H:%M", tzutc);
 		tmbln = mktimes("%a %d %b %Y", tzberlin);
 
-		status = smprintf(" %s  %s",
+		status = smprintf("  420    %s  %s",
 				tmutc,
 				tmbln);
 		setstatus(status);
